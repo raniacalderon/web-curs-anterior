@@ -16,4 +16,4 @@ El concepte principal gira entorn d'un **"Riu de Llibres"**: una intervenció on
 
 ## Enllaç a la web publicada
 Pots visitar la versió de producció desplegada a Firebase Hosting a través del següent enllaç:
-- **URL de Firebase Hosting:** [https://marenostrum-rania-web-2026.web.app]
+- **URL de Firebase Hosting:** [https://marenostrum-web-anterior.web.app]
