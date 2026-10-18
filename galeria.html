@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Mare Nostrum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+    <header>
+    <div class="nav-container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo de Mare Nostrum">
+            </a>
+        </div>
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#Fechas">Fechas</a></li>
+                    <li><a href="index.html#Sponsors">Sponsors</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contingut">
+        <h2 class="titol-seccio">Galería del Evento</h2>
+
+        <section class="slider-section">
+            <h3>Ediciones Anteriores</h3>
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <input type="radio" name="slide" id="slide5">
+
+                    <div class="slides">
+                        <div class="slide s1"><img src="img/galeria-1.png" alt="Evento Marenostrum 2021, Sevilla"></div>
+                        <div class="slide s2"><img src="img/galeria-2.png" alt="Evento Marenostrum 2022, Galicia"></div>
+                        <div class="slide s3"><img src="img/galeria-3.png" alt="Evento Marenostrum 2023, Barcelona"></div>
+                        <div class="slide s4"><img src="img/galeria-4.png" alt="Evento Marenostrum 2024, Huesca"></div>
+                        <div class="slide s5"><img src="img/galeria-5.png" alt="Evento Marenostrum 2025, Bilbao"></div>
+                    </div>
+
+                    <div class="slider-nav">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-section">
+            <h3>Imágenes del "Río de Libros"</h3>
+            <div class="galeria-grid">
+                <div class="grid-item"><img src="img/grid-1.jpg" alt="Libros 1" class="img-zoomable"></div>
+                <div class="grid-item"><img src="img/grid-2.jpg" alt="Libros 2" class="img-zoomable"></div>
+                <div class="grid-item"><img src="img/grid-3.jpg" alt="Libros 3" class="img-zoomable"></div>
+                <div class="grid-item"><img src="img/grid-4.png" alt="Libros 4" class="img-zoomable"></div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <footer>
+        <div class="footer-row redes">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="footer-row links">
+            <a href="terminos.html" target="_blank">Términos y Condiciones</a>
+            <a href="cookies.html" target="_blank">Política de Cookies</a>
+            <a href="privacidad.html" target="_blank">Política de Privacidad</a>
+        </div>
+        <div class="footer-row copy">
+            <p>Made with ♥ by Rania y Deline © 2026</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Mare Nostrum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+    <header>
+    <div class="nav-container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo de Mare Nostrum">
+            </a>
+        </div>
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="nav-menu">
+                  <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#Fechas">Fechas</a></li>
+                    <li><a href="index.html#Sponsors">Sponsors</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contingut">
+        <h2 class="titol-seccio">Registro</h2>
+        
+        <div class="registre-container">
+            <form action="#" class="formulari-registre">
+                <div class="grup-entrada">
+                    <label for="nom-reg">Nombre y Apellidos</label>
+                    <input type="text" id="nom-reg" required placeholder="Escribe tu nombre completo">
+                </div>
+
+                <div class="grup-entrada">
+                    <label for="email-reg">Correo electrónico</label>
+                    <input type="email" id="email-reg" required placeholder="ejemplo@gmail.com">
+                </div>
+
+                <div class="grup-entrada">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" id="pass" name="password" required placeholder="Crea una contraseña segura">
+                </div>
+
+                <div class="grup-entrada">
+                    <label for="pass-conf">Confirmar contraseña</label>
+                    <input type="password" id="pass-conf" name="password-confirm" required placeholder="Vuelve a escribir tu contraseña">
+                </div>
+
+                <button type="submit" class="btn-principal">Finalizar Registro</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-row redes">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+
+        <div class="footer-row links">
+            <a href="terminos.html" target="_blank">Términos y Condiciones</a>
+            <a href="cookies.html" target="_blank">Política de Cookies</a>
+            <a href="privacidad.html" target="_blank">Política de Privacidad</a>
+        </div>
+
+        <div class="footer-row copy">
+            <p>Made with ♥ by Rania y Deline © 2026</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
